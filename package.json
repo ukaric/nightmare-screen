@@ -1,0 +1,13 @@
+{
+  "name": "nightmare-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "prestart": "rm -rf ./screens && mkdir ./screens ./screens/tablets ./screens/mobile",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "nightmare": "^2.10.0"
+  }
+}
