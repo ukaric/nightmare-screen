@@ -2,7 +2,7 @@ const Nightmare = require('nightmare')
 require('./devices')
 // Link to test
 
-const testLink = 'http://www.pinupfiles.com/test/prejoin/prejoin.php'
+const testLink = ''
 
 const nightmare = new Nightmare({
   show: true,
